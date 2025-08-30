@@ -59,7 +59,7 @@ const About = () => {
             <Card className="glass-panel p-8 space-y-6">
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">50K+</div>
+                  <div className="text-3xl font-bold text-primary">50K+</div> 
                   <div className="text-sm text-muted-foreground">Users Helped</div>
                 </div>
                 <div className="text-center">

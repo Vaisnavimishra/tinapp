@@ -20,6 +20,7 @@ const navigationItems = [
   { id: "workspace", label: "Workspace", icon: Briefcase, path: "/workspace" },
   { id: "services", label: "Services", icon: Users, path: "/services" },
   {id:"Journey",label: "Journey",icon:User,path:"/Journey"},
+  {id:"Nextmove",label:"Nextmove",icon:User,path:"/Nextmove"},
   { id: "about", label: "About", icon: User, path: "/about" },
   { id: "contact", label: "Contact", icon: User, path: "/contact" },
 ];

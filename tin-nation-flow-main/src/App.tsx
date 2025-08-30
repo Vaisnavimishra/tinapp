@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Journey from "./pages/Journey";
+import NextMove from "./pages/Nextmove";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/workspace" element={<Workspace />} />
           <Route path="/services" element={<Services />} />
           <Route path="/journey" element={<Journey />} />
+          <Route path="/Nextmove" element={<NextMove/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Contact" element={<Contact/>}/>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
