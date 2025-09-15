@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 import Journey from "./pages/Journey";
 import MyProfile from "./pages/MyProfile";
 import NextMove from "./pages/Nextmove";
+import Visaready from "./pages/Visaready";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/journey" element={<Journey />} />
           <Route path="/MyProfile" element={<MyProfile/>}/>
           <Route path="/Nextmove" element={<NextMove/>}/>
+          <Route path="/Visaready" element={<Visaready/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Contact" element={<Contact/>}/>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
