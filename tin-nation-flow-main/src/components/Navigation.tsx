@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { Globe, Plane, Map, BadgeCheck } from "lucide-react";
 import { User as UserIcon, FileText } from "lucide-react";
+import { ClipboardCheck } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -25,6 +26,7 @@ const navigationItems = [
   {id:"MyProfile", label:"MyProfile", icon:User, path:"/MyProfile"},
   {id:"Nextmove",label:"Nextmove",icon:User,path:"/Nextmove"},
   { id: "Visaready", label: "Visaready", icon: Globe, path: "/Visaready" },
+  { id: "MovingChecklist", label: "MovingChecklist", icon: ClipboardCheck, path: "/MovingChecklist" },
   { id: "mysop", label: "MySop", icon: FileText, path: "/mysop" },
   { id: "about", label: "About", icon: User, path: "/about" },
   { id: "contact", label: "Contact", icon: User, path: "/contact" },

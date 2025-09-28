@@ -14,6 +14,7 @@ import Journey from "./pages/Journey";
 import MyProfile from "./pages/MyProfile";
 import NextMove from "./pages/Nextmove";
 import Visaready from "./pages/Visaready";
+import MovingChecklist from "./pages/MovingChecklist";
 import MySoP from "./pages/MySop";
 
 const queryClient = new QueryClient();
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/MyProfile" element={<MyProfile/>}/>
           <Route path="/Nextmove" element={<NextMove/>}/>
           <Route path="/Visaready" element={<Visaready/>}/>
+          <Route path="/MovingChecklist" element={<MovingChecklist/>}/>
           <Route path="/MySop" element={<MySoP/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Contact" element={<Contact/>}/>
