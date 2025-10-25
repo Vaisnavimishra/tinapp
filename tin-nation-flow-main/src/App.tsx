@@ -16,6 +16,7 @@ import NextMove from "./pages/Nextmove";
 import Visaready from "./pages/Visaready";
 import MovingChecklist from "./pages/MovingChecklist";
 import MySoP from "./pages/MySop";
+import BusinessListing from "./pages/BusinessListing";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/Visaready" element={<Visaready/>}/>
           <Route path="/MovingChecklist" element={<MovingChecklist/>}/>
           <Route path="/MySop" element={<MySoP/>}/>
+          <Route path ="/BusinessListing" element={<BusinessListing/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Contact" element={<Contact/>}/>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
